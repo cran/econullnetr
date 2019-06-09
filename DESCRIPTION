@@ -1,7 +1,7 @@
 Package: econullnetr
 Type: Package
 Title: Null Model Analysis for Ecological Networks
-Version: 0.1.0
+Version: 0.1.0.1
 Depends: R (>= 2.10)
 Imports: reshape2, bipartite, gtools
 Suggests: cheddar, igraph, knitr, rmarkdown, testthat, vdiffr
@@ -24,6 +24,6 @@ LazyData: TRUE
 RoxygenNote: 5.0.1
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2017-09-25 13:02:41 UTC; I. Vaughan
+Packaged: 2019-06-09 18:33:20 UTC; hornik
 Repository: CRAN
-Date/Publication: 2017-09-25 17:35:43 UTC
+Date/Publication: 2019-06-09 18:45:43 UTC

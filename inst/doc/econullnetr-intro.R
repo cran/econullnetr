@@ -170,8 +170,8 @@ for (i in 1:bs.null$n.iterations) { # Number of null model iterations
 }
 
 # Calculate the percentiles for the 95% confidence interval and calculate 
-#   test results. ‘Higher’, ‘Lower’, not significant ‘ns’ or not applicable 
-#   due to being a primary consumer(‘P.cons’)
+#   test results. â€˜Higherâ€™, â€˜Lowerâ€™, not significant â€˜nsâ€™ or not applicable 
+#   due to being a primary consumer(â€˜P.consâ€™)
 
 gen.cl <- apply(Gen, 1, quantile, probs = c(.025, .975))
 gen.summary <- data.frame(obs = data.frame(NodeQuantitativeDescriptors(BS, 
