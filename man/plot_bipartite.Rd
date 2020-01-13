@@ -5,8 +5,12 @@
 \title{Plot a bipartite network, colour coding individual links according to
   whether they are stronger or weaker than expected under the null model}
 \usage{
-plot_bipartite(nullnet, signif.level = 0.95, edge.cols = c("#67A9CF",
-  "#F7F7F7", "#EF8A62"), ...)
+plot_bipartite(
+  nullnet,
+  signif.level = 0.95,
+  edge.cols = c("#67A9CF", "#F7F7F7", "#EF8A62"),
+  ...
+)
 }
 \arguments{
 \item{nullnet}{An object of class "nullnet" from \code{generate_null_net}}
@@ -61,13 +65,12 @@ Brewer, C.A. (2017) \url{http://www.ColorBrewer.org}
   Dormann, C.F., Gruber B. & Frund, J. (2008). Introducing the bipartite
   package: analysing ecological networks. \emph{R news}, \strong{8}, 8-11.
 
-  Vaughan, I.P., Gotelli, N.J., Memmott, J., Pearson, C.E.,
-  Woodward, G. and Symondson, W.O.C. (2017) econullnetr: an R package using null
-  models to analyse the structure of ecological networks and identify
-  resource selection. \emph{Methods in Ecology and Evolution}, in press.
+  Vaughan, I.P., Gotelli, N.J., Memmott, J., Pearson, C.E., Woodward, G. &
+  Symondson, W.O.C. (2018) econullnetr: an R package using null models to
+  analyse the structure of ecological networks and identify resource
+  selection. \emph{Methods in Ecology and Evolution}, \strong{9}, 728--733.
 }
 \seealso{
 \code{\link{generate_null_net}}, \code{\link{bipartite_stats}},
   \code{\link[bipartite]{plotweb}}
 }
-

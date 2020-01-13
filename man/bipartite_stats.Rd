@@ -5,8 +5,14 @@
 \title{Test for significant differences in a range of network metrics between the
   observed and null bipartite networks}
 \usage{
-bipartite_stats(nullnet, signif.level = 0.95, index.type, indices,
-  prog.count = TRUE, ...)
+bipartite_stats(
+  nullnet,
+  signif.level = 0.95,
+  index.type,
+  indices,
+  prog.count = TRUE,
+  ...
+)
 }
 \arguments{
 \item{nullnet}{An object of class 'nullnet' from \code{generate_null_net}}
@@ -133,14 +139,13 @@ Dormann, C.F., Gruber B. & Frund, J. (2008). Introducing the
   Manly, B.F.J. (2006) \emph{Randomization, Bootstrap and Monte Carlo Methods
   in Biology} (3rd edn). Chapman & Hall, Boca Raton.
 
-  Vaughan, I.P., Gotelli, N.J., Memmott, J., Pearson, C.E.,
-  Woodward, G. and Symondson, W.O.C. (2017) econullnetr: an R package using null
-  models to analyse the structure of ecological networks and identify
-  resource selection. \emph{Methods in Ecology and Evolution}, in press.
+  Vaughan, I.P., Gotelli, N.J., Memmott, J., Pearson, C.E., Woodward, G. &
+  Symondson, W.O.C. (2018) econullnetr: an R package using null models to
+  analyse the structure of ecological networks and identify resource
+  selection. \emph{Methods in Ecology and Evolution}, \strong{9}, 728--733.
 }
 \seealso{
 \code{\link{generate_null_net}}, \code{\link{plot_bipartite}},
   \code{\link[bipartite]{networklevel}}, \code{\link[bipartite]{grouplevel}},
   \code{\link[bipartite]{specieslevel}}
 }
-
