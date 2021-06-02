@@ -55,13 +55,14 @@ stream.1 <- generate_null_net(WelshStreams[, 2:18], WelshStreams.prey[, 2:17],
                               r.weights = WelshStreams.fl)
 
 ## ---- fig.height=4, fig.width=8-------------------------------------------------------------------
-par(mfrow = c(1, 2))
+op <- par(mfrow = c(1, 2))
 plot_preferences(stream.1, "Rhyacophila", signif.level = 0.95, type = "counts", 
                  xlab = "Num. of prey detections", res.order = 
                  WelshStreams.order, p.cex = 1.5, l.cex = 0.9, lwd = 2)
 plot_preferences(stream.1, "Dinocras", signif.level = 0.95, type = "counts", 
                  xlab = "Num. of prey detections", res.order = 
                  WelshStreams.order, p.cex = 1.5, l.cex = 0.9, lwd = 2)
+par(op)
 
 ## -------------------------------------------------------------------------------------------------
 export1 <- generate_edgelist(stream.1, signif.level = 0.95, 

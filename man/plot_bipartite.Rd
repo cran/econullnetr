@@ -28,6 +28,9 @@ colour scheme (Brewer 2017).}
 \item{...}{Other arguments to be supplied to \code{bipartite}'s
 \code{plotweb} function.}
 }
+\value{
+No return value, called for side effects.
+}
 \description{
 Acts as a wrapper for the \code{bipartite} package's
   \code{\link[bipartite]{plotweb}} function (Dormann \emph{et al}., 2008),
@@ -60,7 +63,7 @@ plot_bipartite(sil.null, signif.level = 0.95, edge.cols = c("#67a9cf",
 
 }
 \references{
-Brewer, C.A. (2017) \url{http://www.ColorBrewer.org}
+Brewer, C.A. (2017) \url{https://colorbrewer2.org/}
 
   Dormann, C.F., Gruber B. & Frund, J. (2008). Introducing the bipartite
   package: analysing ecological networks. \emph{R news}, \strong{8}, 8-11.
